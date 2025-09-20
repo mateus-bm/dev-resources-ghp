@@ -1,4 +1,4 @@
-baseURL = 'https://mateus-bm.github.io/dev-resources-ghp/'
+baseURL = 'https://mateus-bm.github.io/dev-resources-ghp'
 languageCode = 'pt-br'
 title = 'Dev resources'
 contentDir = 'content'
