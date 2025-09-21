@@ -1,8 +1,13 @@
 baseURL = 'https://mateus-bm.github.io/dev-resources-ghp'
-languageCode = 'pt-br'
+languageCode = 'pt-BR'
 title = 'Dev resources'
 contentDir = 'content'
 enableEmoji = true
+
+defaultContentLanguage = 'pt-BR'
+[languages]
+  [languages.pt-BR]
+    weight = 1
 
 [caches]
   [caches.images]
@@ -28,6 +33,10 @@ enableEmoji = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true # https://jdhao.github.io/2019/12/29/hugo_html_not_shown/
-  [markup.goldmark.parser]
-    [markup.goldmark.parser.attribute]
-      block = true
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        useEmbedded = 'auto'
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true

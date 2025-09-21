@@ -45,7 +45,7 @@ Na data deste documento (20/09/25), foi utilizado `WSL` com `Ubuntu 24.04.3 LTS`
     curl -s "https://get.sdkman.io" | bash
     ```
 
-4. Após a conclusão devemos ver uma mensagem de sucesso. Revise os passos caso encontre algum erro. ![SDKMAN instalado com sucesso](./sdkman_install_success.png)
+4. Após a conclusão devemos ver uma mensagem de sucesso. Revise os passos caso encontre algum erro. ![SDKMAN instalado com sucesso](/images/sdkman_install_success.jpg)
 
 5. Reinicie o terminal ou execute o comando abaixo para habilitar os alias do sdkman.
 
@@ -71,7 +71,7 @@ A instalação deve ser tão simples quanto executar o comando abaixo:
 sdk install java 24-tem
 ```
 
-Após a instalação finalizar devemos ter novamente uma mensagem de sucesso. ![Sucesso instalação JDK](java_tem_install_success.png)
+Após a instalação finalizar devemos ter novamente uma mensagem de sucesso. ![Sucesso instalação JDK](/images/java_tem_install_success.jpg)
 
 Confirme a instalação verificando a versão do java:
 
