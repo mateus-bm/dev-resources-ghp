@@ -17,7 +17,6 @@ defaultContentLanguage = 'pt-BR'
     subtitle = "Repositório de guias e documentos"
     [params.plausible]
         dataDomain = "mateus-bm.github.io"
-        scriptURL  = "https://plausible.io/js/pa-4rh1jXgtWAhIQd25eSXVb.js"
     [params.docs]
         darkMode = true
 
