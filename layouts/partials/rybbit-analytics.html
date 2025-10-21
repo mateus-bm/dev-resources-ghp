@@ -1,4 +1,4 @@
 {{ if and (not hugo.IsServer) .Site.Params.rybbitSiteID }}
-<script async defer src="{{ .Site.Params.rybbitInstanceURL | default "https://app.rybbit.io" }}/api/script.js"
+<script async defer src="{{ .Site.Params.rybbitInstanceURL | default " https://app.rybbit.io" }}/api/script.js"
     data-site-id="{{ .Site.Params.rybbitSiteID }}"></script>
 {{ end }}
