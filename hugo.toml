@@ -15,10 +15,12 @@ defaultContentLanguage = 'pt-BR'
 
 [params]
     subtitle = "Repositório de guias e documentos"
-    rybbitInstanceURL = "https://app.rybbit.io"
-    rybbitSiteID = "eb5e1b2dd231"
+    [params.plausible]
+        dataDomain = "mateus-bm.github.io"
+        scriptURL  = "http://umbrel.local:9092"
+        eventAPI   = "http://umbrel.local:9092/stats/api/event"
     [params.docs]
-    darkMode = true
+        darkMode = true
 
 [module]
     [[module.imports]]
